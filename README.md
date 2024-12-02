@@ -20,16 +20,17 @@ and running the dashboard for an optimal experience.
 Step 1: Install Jupyter Notebook
 If you don’t already have Jupyter installed, you can install it via pip or conda:
 
+Step 2: Download Repository
+Open the repository gwk3cc/Localized-Climate-Impact-Dashboard
+Click the green "CODE" button and hit "Download ZIP"
+
 Step 2: Install Project Dependencies
-Our project requires certain Python packages. Open a new notebook in Jupyter, and run the following cell to install the required libraries. 
-%cd /path/to/your/project-directory 
-!pip install -r requirements.txt
+Our project requires certain Python packages, which are listed below. Refer to library or Python documentation for instructions on installing each library.
 
 Step 3: Run the Dashboard Script in Jupyter
-1.	Navigate to the Project File: In the Jupyter Notebook interface, navigate to the directory containing your project files.
-2.	Open the Script: Locate the main .py file for the dashboard and open it as a new cell in a Jupyter notebook. Alternatively, copy and paste the code into a new notebook cell.
+1.	In the Jupyter Notebook interface, navigate to the directory containing your project files (in the folder "Dashboard").
+2.	Open the Script: Locate the main dashboard file, "Climate Dashboard.ipynb", and open it in a Jupyter notebook.
 3.	Run the Dashboard: Execute the cells containing the dashboard code by selecting each cell and clicking “Run” or by pressing Shift + Enter.
-
 
 
 Libraries Used
