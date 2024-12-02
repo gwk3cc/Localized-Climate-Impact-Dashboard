@@ -127,21 +127,32 @@ Key Features:
 
 
 References 
+
 Timothy Akohler, T. M. (2020). Future of the human climate niche. PNAS.
+
 Shaw, A., Lustgarten, A., ProPublica, & Goldsmith, J. W. (2020, September 15). New Climate
+
 Pachauri, R. K., Allen, M. R., Barros, V. R., Broome, J., Cramer, W., Christ, R., ... & van Ypserle, J. P. (2014). Climate change 2014: synthesis report. Contribution of Working Groups I, II and III to the fifth assessment report of the Intergovernmental Panel on Climate Change (p. 151). Ipcc.
+
 OpenAI. (2024). [Large language model]: 
 https://chat.openai.com/chat
+
 Shapefile download link: 
 https://catalog.data.gov/dataset/2020-cartographic-boundary-file-kml-current-county-and-equivalent-for-united-states-1-500000/resource/13d546be-47ce-4670-8e9f-c1647bc56342
+
 Latitude and Longitude csv file download link: https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/us-county-boundaries/exports/csv?lang=en&timezone=America%2FNew_York&use_labels=true&delimiter=%3B
+
 Climate risk indicators: 
 https://projects.propublica.org/climate-migration/ (table at the end, data source analysed from https://www.pnas.org/doi/10.1073/pnas.1910114117)
+
 Open-Meteo Historical Data API: 
 https://open-meteo.com/en/docs/historical-weather-api
+
 Open-Meteo AQI Data API: 
 https://open-meteo.com/en/docs/air-quality-api
+
 https://simplemaps.com/data/us-counties
+
 https://projects.propublica.org/climate
 
 
