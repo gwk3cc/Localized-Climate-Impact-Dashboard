@@ -20,9 +20,22 @@ and running the dashboard for an optimal experience.
 Step 1: Install Jupyter Notebook
 If you don’t already have Jupyter installed, you can install it via pip or conda:
 
-Step 2: Download Repository
+Step 2: Clone Repository
+
+This repository uses Git Large File Storage (Git LFS) to manage large files. 
+
+To clone this repository and properly download the large files:
+1. Ensure you have [Git LFS](https://git-lfs.com/) installed.
+   - On macOS: `brew install git-lfs`
+   - On Windows: Use the [Git LFS installer](https://git-lfs.com/).
+
+2. Initialize Git LFS:
+   ```bash
+   git lfs install
+   
 Open the repository gwk3cc/Localized-Climate-Impact-Dashboard
-Click the green "CODE" button and hit "Download ZIP"
+Click the green "CODE" button and hit "Open with GitHub Desktop"
+Note: Do NOT download the repository as a zip file. Because of the Git LFS, csv files will not download correctly in a zip file.
 
 Step 2: Install Project Dependencies
 Our project requires certain Python packages, which are listed below. Refer to library or Python documentation for instructions on installing each library.
