@@ -17,7 +17,7 @@ User Instructions:
 Our project dashboard was developed and optimized for Jupyter Notebook. Below are the steps for setting up Jupyter Notebook, installing required packages, 
 and running the dashboard for an optimal experience.
 
-Step 1: Install Jupyter Notebook 
+Step 1: Install [Jupyter Notebook](https://www.anaconda.com/products/navigator)
 
 Skip if already installed
 
