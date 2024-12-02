@@ -2,11 +2,9 @@ Climate Data Analysis for US Counties
 
 Abstract:
 This project aims to present and analyze climate risk data across U.S. counties and make them more accessible and actionable, enabling local governments, researchers, 
-and the public to better understand the distribution and implications of climate-related risks in different regions. The data used is based on climate indicators along 
-with a prediction of temperature variation and status quo of air quality. The project is built using an interactive dashboard with Plotly Dash. Utilizing information from
-the web-scraped ProPublica Climate Risk Table1 and the Open-Meteo API2,3 for historical climate and live air quality data, the information is condensed and made usable 
-in the form of interactive visualizations. It employed GeoPandas for spatial data integration, enabling geographic mapping of counties with climate risk levels across 
-the U.S using the shapefile based on 2020 census boundaries4 , filtered by user selection. The Open-Meteo API is integrated with the help of OpenMeteo Requests, Requests 
+and the public to better understand the distribution and implications of climate-related risks in different regions. The data used includes several climate indicators and 
+provides a prediction of future temperatures. The project is built using an interactive dashboard with Plotly Dash. It employs GeoPandas for spatial data integration, 
+enabling geographic mapping of counties with climate risk levels across the U.S, filtered by user selection. The Open-Meteo API is integrated with the help of OpenMeteo Requests, Requests 
 Cache, and Retry Requests libraries to fetch and cache real-time climate data via API calls. SciPy is applied for mathematical operations, including percentile calculations
 to rank counties by risk levels. It also uses the Sci-kit learn library for creating a Multiple Linear Regression model to predict the Mean Temperature for the next 5 years
 (this prediction is specific to the selected county). All insights are then presented through a web application-based interface using a Jupyter Notebook.
